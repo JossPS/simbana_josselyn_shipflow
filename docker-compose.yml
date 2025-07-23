@@ -1,0 +1,10 @@
+services:
+  postgres:
+    image: postgres
+    environment:
+      POSTGRES_DB: shipflow_db
+      POSTGRES_USER: js1234
+      POSTGRES_PASSWORD: js1234
+
+    ports:
+      - "5432:5432"
