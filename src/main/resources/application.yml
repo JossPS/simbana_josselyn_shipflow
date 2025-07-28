@@ -1,0 +1,15 @@
+spring:
+  application:
+    name: simbana_josselyn_shipflow
+
+  datasource:
+    url: jdbc:postgresql://localhost:5432/shipflow_db
+    driver-class-name: org.postgresql.Driver
+    username: js1234
+    password: js1234
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+    database-platform: org.hibernate.dialect.PostgreSQLDialect
